@@ -1,9 +1,11 @@
 import React from "react";
 
 const Cards = () => {
+    
     return (
+        <div className="d-flex justify-content-around flex-wrap mt-4 mb-4">
         <div className="container d-flex justify-content-around mt-4 mb-4" style={{ overflowX: "auto" }}>
-            <div className="card m-2" style={{ width: "18rem" }}>
+            <div className="card m-2" style={{ width: "20rem" }}>
                 <img src="https://picsum.photos/500/325?grayscale" className="card-img-top" alt="PERRO" />
                 <div className="card-body">
                     <h5 className="card-title">Card title</h5>
@@ -12,7 +14,7 @@ const Cards = () => {
                 </div>
             </div>
             
-            <div className="card m-2" style={{ width: "18rem" }}>
+            <div className="card m-2" style={{ width: "20rem" }}>
                 <img src="https://picsum.photos/500/325?grayscale" className="card-img-top" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">Card title</h5>
@@ -21,7 +23,7 @@ const Cards = () => {
                 </div>
             </div>
 
-            <div className="card m-2" style={{ width: "18rem" }}>
+            <div className="card m-2" style={{ width: "20rem" }}>
                 <img src="https://picsum.photos/500/325?grayscale" className="card-img-top" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">Card title</h5>
@@ -30,7 +32,7 @@ const Cards = () => {
                 </div>
             </div>
 
-            <div className="card m-2" style={{ width: "18rem" }}>
+            <div className="card m-2" style={{ width: "20rem" }}>
                 <img src="https://picsum.photos/500/325?grayscale" className="card-img-top" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">Card title</h5>
@@ -39,7 +41,7 @@ const Cards = () => {
                 </div>
             </div>
 
-            <div className="card m-2" style={{ width: "18rem" }}>
+            <div className="card m-2" style={{ width: "20rem" }}>
                 <img src="https://picsum.photos/500/325?grayscale" className="card-img-top" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">Card title</h5>
@@ -48,6 +50,7 @@ const Cards = () => {
                 </div>
             </div>
 
+        </div>
         </div>
     );
 }
